@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\ClnParcial2Lfms\bin\Debug\ClnParcial2Lfms.dll.config
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\ClnParcial2Lfms\bin\Debug\ClnParcial2Lfms.dll
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\ClnParcial2Lfms\bin\Debug\ClnParcial2Lfms.pdb
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\ClnParcial2Lfms\bin\Debug\CadParcial2Lfms.dll
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\ClnParcial2Lfms\bin\Debug\EntityFramework.dll
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\ClnParcial2Lfms\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\ClnParcial2Lfms\bin\Debug\CadParcial2Lfms.pdb
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\ClnParcial2Lfms\bin\Debug\CadParcial2Lfms.dll.config
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\ClnParcial2Lfms\bin\Debug\EntityFramework.xml
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\ClnParcial2Lfms\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\ClnParcial2Lfms\obj\Debug\ClnParcial2Lfms.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\ClnParcial2Lfms\obj\Debug\ClnParcial2Lfms.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\ClnParcial2Lfms\obj\Debug\ClnParci.0A4174A9.Up2Date
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\ClnParcial2Lfms\obj\Debug\ClnParcial2Lfms.dll
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\ClnParcial2Lfms\obj\Debug\ClnParcial2Lfms.pdb

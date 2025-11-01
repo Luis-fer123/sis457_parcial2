@@ -1,0 +1,12 @@
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\CadParcial2Lfms\bin\Debug\CadParcial2Lfms.dll.config
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\CadParcial2Lfms\bin\Debug\CadParcial2Lfms.dll
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\CadParcial2Lfms\bin\Debug\CadParcial2Lfms.pdb
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\CadParcial2Lfms\bin\Debug\EntityFramework.dll
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\CadParcial2Lfms\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\CadParcial2Lfms\bin\Debug\EntityFramework.xml
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\CadParcial2Lfms\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\CadParcial2Lfms\obj\Debug\CadParcial2Lfms.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\CadParcial2Lfms\obj\Debug\CadParcial2Lfms.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\CadParcial2Lfms\obj\Debug\CadParci.310E7DDC.Up2Date
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\CadParcial2Lfms\obj\Debug\CadParcial2Lfms.dll
+C:\Users\HP\Desktop\Parcial2Lfms\Parcial2Lfms\CadParcial2Lfms\obj\Debug\CadParcial2Lfms.pdb
