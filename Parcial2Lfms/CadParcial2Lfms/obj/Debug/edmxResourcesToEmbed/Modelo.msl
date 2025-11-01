@@ -21,6 +21,7 @@
           <ScalarProperty Name="titulo" ColumnName="titulo" />
           <ScalarProperty Name="descripcion" ColumnName="descripcion" />
           <ScalarProperty Name="duracion" ColumnName="duracion" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
           <ScalarProperty Name="productor" ColumnName="productor" />
           <ScalarProperty Name="fechaEstreno" ColumnName="fechaEstreno" />
           <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
@@ -48,6 +49,7 @@
           <ScalarProperty Name="titulo" ColumnName="titulo" />
           <ScalarProperty Name="descripcion" ColumnName="descripcion" />
           <ScalarProperty Name="duracion" ColumnName="duracion" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
           <ScalarProperty Name="productor" ColumnName="productor" />
           <ScalarProperty Name="fechaEstreno" ColumnName="fechaEstreno" />
           <ScalarProperty Name="Canal" ColumnName="Canal" />

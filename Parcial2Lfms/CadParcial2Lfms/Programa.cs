@@ -14,13 +14,12 @@ namespace CadParcial2Lfms
     
     public partial class Programa
     {
-        public DateTime fechaRegitro;
-
         public int id { get; set; }
         public int idCanal { get; set; }
         public string titulo { get; set; }
         public string descripcion { get; set; }
         public Nullable<int> duracion { get; set; }
+        public string tipo { get; set; }
         public string productor { get; set; }
         public Nullable<System.DateTime> fechaEstreno { get; set; }
         public string usuarioRegistro { get; set; }

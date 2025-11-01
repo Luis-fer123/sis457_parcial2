@@ -29,6 +29,7 @@ namespace CpParcial2Lfms
             dgvLista.Columns["titulo"].HeaderText = "Título";
             dgvLista.Columns["descripcion"].HeaderText = "Descripción";
             dgvLista.Columns["duracion"].HeaderText = "Duración (minutos)";
+            dgvLista.Columns["tipo"].HeaderText = "Canal Tipo";
             dgvLista.Columns["productor"].HeaderText = "Productor";
             dgvLista.Columns["fechaEstreno"].HeaderText = "Fecha de Estreno";
             dgvLista.Columns["canal"].HeaderText = "Canal";
@@ -93,6 +94,7 @@ namespace CpParcial2Lfms
             txtTitulo.Text = programa.titulo;
             txtDescripcion.Text = programa.descripcion;
             nudDuracion.Text = programa.duracion.HasValue ? programa.duracion.Value.ToString() : "";
+            cbxTipo.SelectedIndex = cbxTipo.Items.IndexOf(programa.tipo);
             txtProductor.Text = programa.productor;
             dtpFechaEstreno.Value = programa.fechaEstreno.HasValue ? programa.fechaEstreno.Value : DateTime.Today;
             cbxCanal.SelectedValue = programa.idCanal;
@@ -141,6 +143,7 @@ namespace CpParcial2Lfms
                 descripcion = txtDescripcion.Text.Trim(),
                 duracion = (int)nudDuracion.Value,
                 productor = txtProductor.Text.Trim(),
+                tipo = cbxTipo.SelectedItem.ToString(),
                 fechaEstreno = dtpFechaEstreno.Value,
                 idCanal = Convert.ToInt32(cbxCanal.SelectedValue),
                 usuarioRegistro = "admin",
@@ -198,6 +201,7 @@ namespace CpParcial2Lfms
             erpTitulo.Clear();
             erpDescripcion.Clear();
             erpDuracion.Clear();
+            erpTipo.Clear();
             erpProductor.Clear();
             erpCanal.Clear();
             erpfechaEstreno.Clear();
@@ -215,6 +219,11 @@ namespace CpParcial2Lfms
             if (nudDuracion.Value <= 0)
             {
                 erpDuracion.SetError(nudDuracion, "La duración debe ser mayor a cero.");
+                esValido = false;
+            }
+            if (cbxTipo.SelectedIndex == -1)
+            {
+                erpDuracion.SetError(cbxTipo, "Debe seleccionar un tipo.");
                 esValido = false;
             }
             if (string.IsNullOrWhiteSpace(txtProductor.Text))

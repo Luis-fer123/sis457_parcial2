@@ -15,6 +15,10 @@ namespace CadParcial2Lfms
     public partial class Canal
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public Canal()
+        {
+            this.Programa = new HashSet<Programa>();
+        }
     
         public int id { get; set; }
         public string nombre { get; set; }

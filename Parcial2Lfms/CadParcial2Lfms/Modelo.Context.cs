@@ -39,13 +39,22 @@ namespace CadParcial2Lfms
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<paListarCanales_Result>("paListarCanales", parametroParameter);
         }
     
-        public virtual ObjectResult<paListarProgramas_Result> paListarProgramas(string parametro)
+        public virtual ObjectResult<paListarProgramas_Result> paListarProgramas(string parametro, string tipo)
         {
             var parametroParameter = parametro != null ?
                 new ObjectParameter("parametro", parametro) :
                 new ObjectParameter("parametro", typeof(string));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<paListarProgramas_Result>("paListarProgramas", parametroParameter);
+            var tipoParameter = tipo != null ?
+                new ObjectParameter("tipo", tipo) :
+                new ObjectParameter("tipo", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<paListarProgramas_Result>("paListarProgramas", parametroParameter, tipoParameter);
+        }
+
+        public object paListarProgramas(string parametro)
+        {
+            throw new NotImplementedException();
         }
     }
 }

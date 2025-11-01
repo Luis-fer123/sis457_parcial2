@@ -17,6 +17,7 @@ namespace CadParcial2Lfms
         public string titulo { get; set; }
         public string descripcion { get; set; }
         public Nullable<int> duracion { get; set; }
+        public string tipo { get; set; }
         public string productor { get; set; }
         public Nullable<System.DateTime> fechaEstreno { get; set; }
         public string Canal { get; set; }

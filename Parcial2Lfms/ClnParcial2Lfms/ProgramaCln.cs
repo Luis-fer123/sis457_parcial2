@@ -57,11 +57,11 @@ namespace ClnParcial2Lfms
                 return context.Programa.Where(x => x.estado != -1).ToList();
             }
         }
-        public static List<paListarProgramas_Result> listarPa(string parametro)
+        public static List<paListarProgramas_Result> listarPa(string parametro, string tipo = null)
         {
             using (var context = new Parcial2LfmsEntities())
             {
-                return context.paListarProgramas(parametro).ToList();
+                return context.paListarProgramas(parametro, tipo).ToList();
             }
         }
 
